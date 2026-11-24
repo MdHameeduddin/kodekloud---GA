@@ -1,0 +1,9 @@
+name: My First YML
+on:
+  workflow_dispatch:
+jobs:
+  my_first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Message
+        run: echo "Hello this is my first yaml"
